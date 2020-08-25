@@ -14,7 +14,7 @@ public class loginSteps  {
 
         WebElement radio2 = driver.findElement(By.id("vfb-7-2"));
         radio2.click();
-
+        System.out.println("radio button clicked");
     }
 
     @When("^User Navigate to LogIn Page$")
